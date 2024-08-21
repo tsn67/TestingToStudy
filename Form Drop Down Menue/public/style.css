@@ -1,0 +1,27 @@
+
+
+button {
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    background: lightblue;
+    border: none;
+    width: 5rem;
+}
+
+ul {
+    background: lightgreen;
+    display: block;
+    width: 200px;
+}
+
+.select {
+    position: relative;
+}
+
+
+.content {
+    position: absolute;
+    display: none;
+}
+

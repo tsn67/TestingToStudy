@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop down Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+   <div class="select">
+        <button onclick="document.querySelector('form').submit()">select
+            <% if(locals.number != -1) { %>
+                <h1><%= locals.number %></h1>
+            <% }%>
+            <form action="/getNum" class="form1" method="post">
+                <input type="submit" hidden>
+            </form>
+        </button>
+   </div>
+
+   <script src="index.js"></script>
+</body>
+</html>
